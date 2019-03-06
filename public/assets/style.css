@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 20px;
+}
+
+input, button {
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 1px;
+}
+
+input {
+    background-color: rgb(85, 85, 85);
+    width: 400px;
+}
+
+button {
+    background-color: rgb(107, 100, 100);
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    line-height: 40px;
+}
+
+li div {
+    display: flex;
+    justify-content: space-between;
+}
+
+li div button {
+    background-color: black;
+    border: none;
+}
+
+li:hover {
+    text-decoration: line-through;
+}
